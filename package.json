@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "clean": "yarn workspaces run clean",
+    "start": "yarn workspace mobileapp run start",
+    "ios": "yarn workspace mobileapp run ios",
+    "build": "yarn workspaces run build"
+  },
+  "name": "excelera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "lerna": "^4.0.0",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "react-native": "*"
+  }
+}
