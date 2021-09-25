@@ -4,20 +4,20 @@
     "packages": [
       "apps/*",
       "packages/*"
-    ],
-    "nohoist": []
+    ]
   },
   "scripts": {
-    "clean": "yarn workspaces run clean",
+    "clean": "yarn workspaces foreach run clean",
     "start": "yarn workspace mobileapp run start",
     "ios": "yarn workspace mobileapp run ios",
-    "build": "yarn workspaces run build"
+    "build": "yarn workspaces foreach run build"
   },
   "name": "excelera",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "16.10.1",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "incremental": true,
+    "composite": true,
+    "removeComments": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "@excelera/*": ["*/src"]
+    },
+    "pretty": true
+  }
+}

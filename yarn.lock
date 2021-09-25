@@ -1083,6 +1083,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@excelera/config@workspace:packages/config":
+  version: 0.0.0-use.local
+  resolution: "@excelera/config@workspace:packages/config"
+  languageName: unknown
+  linkType: soft
+
+"@excelera/identity-service@workspace:packages/identity-service":
+  version: 0.0.0-use.local
+  resolution: "@excelera/identity-service@workspace:packages/identity-service"
+  dependencies:
+    axios: 0.21.4
+    ramda: 0.27.1
+  languageName: unknown
+  linkType: soft
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -2768,6 +2783,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:16.10.1":
+  version: 16.10.1
+  resolution: "@types/node@npm:16.10.1"
+  checksum: 84d7f082e9421fdf1f08dbe00b66848897b2675eacc94a4fa445c4d34cef57c901ecd3276d03ebe110607a848d3df0ab33816aeff51a234e036111dd8ef1422f
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
@@ -3461,6 +3483,15 @@ __metadata:
   version: 1.11.0
   resolution: "aws4@npm:1.11.0"
   checksum: 5a00d045fd0385926d20ebebcfba5ec79d4482fe706f63c27b324d489a04c68edb0db99ed991e19eda09cb8c97dc2452059a34d97545cebf591d7a2b5a10999f
+  languageName: node
+  linkType: hard
+
+"axios@npm:0.21.4":
+  version: 0.21.4
+  resolution: "axios@npm:0.21.4"
+  dependencies:
+    follow-redirects: ^1.14.0
+  checksum: 44245f24ac971e7458f3120c92f9d66d1fc695e8b97019139de5b0cc65d9b8104647db01e5f46917728edfc0cfd88eb30fc4c55e6053eef4ace76768ce95ff3c
   languageName: node
   linkType: hard
 
@@ -5402,6 +5433,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "excelera@workspace:."
   dependencies:
+    "@types/node": 16.10.1
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-prettier: 4.0.0
@@ -5757,6 +5789,16 @@ __metadata:
   version: 0.121.0
   resolution: "flow-parser@npm:0.121.0"
   checksum: 2d9a9724b903f4c2eae63f8e1442f97c8284516197bebd746cdbba938ff0a17f2dd7a2bc74ca9a987556af0f43d31a793b251ae30660d6b5e914f0c2e8501d2d
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.14.0":
+  version: 1.14.4
+  resolution: "follow-redirects@npm:1.14.4"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: d4ce74cf5c6f363168b97e706b914eb9ffb6bf4d4c6d8f8330b93088d9b90e566611ddbcf0e42c8ed5fd17598dfeda1d19230d3e9d6d6c6b4d1c10ec3a0b99be
   languageName: node
   linkType: hard
 
@@ -10148,6 +10190,13 @@ fsevents@^2.1.2:
   version: 4.0.1
   resolution: "quick-lru@npm:4.0.1"
   checksum: bea46e1abfaa07023e047d3cf1716a06172c4947886c053ede5c50321893711577cb6119360f810cc3ffcd70c4d7db4069c3cee876b358ceff8596e062bd1154
+  languageName: node
+  linkType: hard
+
+"ramda@npm:0.27.1":
+  version: 0.27.1
+  resolution: "ramda@npm:0.27.1"
+  checksum: 31a0c0ef739b2525d7615f84cbb5d3cb89ee0c795469b711f729ea1d8df0dccc3cd75d3717a1e9742d42315ce86435680b7c87743eb7618111c60c144a5b8059
   languageName: node
   linkType: hard
 

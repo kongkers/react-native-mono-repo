@@ -1,0 +1,13 @@
+{
+  "name": "@excelera/config",
+  "private": true,
+  "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "npx rimraf dist",
+    "compile": "tsc --build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT"
+}
