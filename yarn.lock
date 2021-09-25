@@ -1083,7 +1083,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@excelera/config@workspace:packages/config":
+"@excelera/config@1.0.0, @excelera/config@workspace:packages/config":
   version: 0.0.0-use.local
   resolution: "@excelera/config@workspace:packages/config"
   languageName: unknown
@@ -1093,6 +1093,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@excelera/identity-service@workspace:packages/identity-service"
   dependencies:
+    "@excelera/config": 1.0.0
     axios: 0.21.4
     ramda: 0.27.1
   languageName: unknown
