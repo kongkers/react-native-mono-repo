@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "yarn run clean && yarn run compile",
-    "clean": "npx rimraf dist",
+    "clean": "npx rimraf dist && rm *.tsbuildinfo",
     "compile": "tsc --build"
   },
   "license": "MIT",
